@@ -8,8 +8,6 @@ from django.views import View
 
 class MyForm(forms.Form):
     text = forms.CharField(widget=forms.Textarea)
-    # rating = forms.IntegerField(name='rating', verbose_name='rating', default=10)
-    # is_pos = forms.BooleanField(name='is_pos', verbose_name='is_pos', default=True)
 
 
 class PredSentiment(View):
