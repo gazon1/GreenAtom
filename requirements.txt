@@ -8,7 +8,7 @@ filelock==3.0.12
 future==0.18.2
 idna==2.9
 joblib==0.15.1
-numpy==1.19.0
+numpy==1.22.0
 packaging==20.4
 pyparsing==2.4.7
 pytz==2020.1
